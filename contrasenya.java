@@ -5,7 +5,6 @@ public class contrasenya {
 public static final int LONG_CONTRASENYA = 8;
 
 public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         System.out.print(
                 "Entra la contrasneya. Tingues en compte les següents restriccions: \n" +
@@ -20,17 +19,12 @@ public static void main(String[] args) {
         } else {
             System.out.println("Contrasenya NO acceptada: " + s);
         }
-
     }
 
     public static boolean esValida(String password) {
-
-        if (password.length() < LONG_CONTRASENYA) return false;
-
         int numCaracters = 0;
         int numNumeros = 0;
         for (int i = 0; i < password.length(); i++) {
-
             char c = password.charAt(i);
 
             if (esNumero(c)) numNumeros++;
@@ -38,8 +32,7 @@ public static void main(String[] args) {
             else return false;
         }
 
-
-        return (numCaracters >= 2 && numNumeros >= 2);
+        return (password.length() >= LONG_CONTRASENYA && numCaracters >= 1 && numNumeros >= 1);
     }
 
     public static boolean esLletra(char c) {
@@ -48,7 +41,6 @@ public static void main(String[] args) {
     }
 
     public static boolean esNumero(char c) {
-
         return (c >= '0' && c <= '9');
     }
 }
