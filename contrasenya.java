@@ -8,10 +8,12 @@ public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         System.out.print(
-                "Entra la contrasneya. Tingues en compte les següents restriccions: ");
-                "- Les contrasenyes han de tenir 8 caràcters com a mínim.\n" +
-                "- Hi ha d’haver lletres.\n" +
-                "- Hi ha d’haver algun número\n" +
+                "Entra la contrasneya. Tingues en compte les següents restriccions:" +               "- Les contrasenyes han de tenir 10 caràcters com a mínim.\n" +
+                "- Hi ha d’haver almenys dos números.\n" +
+                "- Hi ha d’haver lletres en majúscules i en minúscules\n" +
+                "- Hi ha d’haver un símbol que no pot estar ni al principi ni al final\n" +
+                "Contrasenya: ");
+
         String s = input.nextLine();
 
         if (esValida(s)) {
