@@ -21,9 +21,9 @@ Per la versió 2
 - Hi ha d’haver lletres en majúscules i en minúscules
 - Hi ha d’haver un símbol que no pot estar ni al principi ni al final
 
-1.Creeu un repositori en un servei Git públic
-2.Desenvolupeu les funcionalitats de la versió 1
-3.Creeu la versió 1
-4.Desenvolupeu les funcionalitats de la versió 2
-5.Creeu la versió 2
-6.Publiqueu totes les branques que tingueu en el repositori públic
+1. Creeu un repositori en un servei Git públic
+2. Desenvolupeu les funcionalitats de la versió 1
+3. Creeu la versió 1
+4. Desenvolupeu les funcionalitats de la versió 2
+5. Creeu la versió 2
+6. Publiqueu totes les branques que tingueu en el repositori públic
