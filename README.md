@@ -1,15 +1,14 @@
 # contrasenyes
 
-Per fer aquesta tasca comproveu que teniu el connector de Git Flow instal·lat (en Windows ho està per defecte si heu instal·lat el paquet de Git)
+Per fer aquesta tasca comproveu que teniu el connector de Git Flow instal·lat (en Windows ho està per defecte si heu instal·lat el paquet de Git).
 
 Sembla que en la web de retransmissió dels combats en línia de la Boxa entre Cavallers s’hi estan colant molts hackers aprofitant que els usuaris tenen contrasenyes massa senzilles.
 
-Com que els ingressos se n’estan ressentint s’ha de posar més difícil als hackers. Per tant s’ha de forçar que les contrasenyes dels usuaris siguin més complexes
+Com que els ingressos se n’estan ressentint s’ha de posar més difícil als hackers. Per tant s’ha de forçar que les contrasenyes dels usuaris siguin més complexes.
 
-Tasca
-Desenvolupeu el mòdul de contrasenyes fent servir Git Flow (amb el llenguatge de programació que vulgueu)
+Desenvolupeu el mòdul de contrasenyes fent servir Git Flow (amb el llenguatge de programació que vulgueu).
 
-Com que és molt urgent posar-ho en marxa han definit requeriments dividits en versions
+Com que és molt urgent posar-ho en marxa han definit requeriments dividits en versions.
 
 Per la versió 1
 - Les contrasenyes han de tenir 8 caràcters com a mínim
