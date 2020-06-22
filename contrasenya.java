@@ -41,9 +41,9 @@ public static void main(String[] args) {
         return (numCaracters >= 2 && numNumeros >= 2);
     }
 
-    public static boolean is_Letter(char ch) {
-        ch = Character.toUpperCase(ch);
-        return (ch >= 'A' && ch <= 'Z');
+    public static boolean esLletra(char c) {
+        c = Character.toUpperCase(c);
+        return (c >= 'A' && c <= 'Z');
     }
 
     public static boolean esNumero(char c) {
