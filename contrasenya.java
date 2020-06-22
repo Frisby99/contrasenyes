@@ -5,7 +5,6 @@ public class contrasenya {
 public static final int LONG_CONTRASENYA = 10;
 
 public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         System.out.print(
                 "Entra la contrasneya. Tingues en compte les següents restriccions:" +
