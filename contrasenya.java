@@ -8,10 +8,11 @@ public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         System.out.print(
-                "Entra la contrasneya. Tingues en compte les següents restriccions: ");
+                "Entra la contrasneya. Tingues en compte les següents restriccions:" +
                 "- Les contrasenyes han de tenir 8 caràcters com a mínim.\n" +
                 "- Hi ha d’haver lletres.\n" +
                 "- Hi ha d’haver algun número\n" +
+                "Contrasenya: ");
         String s = input.nextLine();
 
         if (esValida(s)) {
@@ -41,7 +42,7 @@ public static void main(String[] args) {
         return (numCaracters >= 2 && numNumeros >= 2);
     }
 
-    public static boolean is_Letter(char ch) {
+    public static boolean esLletra(char ch) {
         ch = Character.toUpperCase(ch);
         return (ch >= 'A' && ch <= 'Z');
     }
